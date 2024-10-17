@@ -85,7 +85,11 @@ fun BasicCompose(arya: Modifier = Modifier){
         Text(text = "20220140124",
             fontSize = 26.sp,
             color = Color.Black)
-        
+
+        Spacer(modifier = Modifier.height(30.dp))
+
+
+
 
         Image(painter = painterResource(id = R.drawable.fifa),
             contentDescription = null,
