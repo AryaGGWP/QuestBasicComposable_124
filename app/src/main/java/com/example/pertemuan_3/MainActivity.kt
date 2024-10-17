@@ -46,12 +46,13 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(arya: Modifier = Modifier){
     Column(verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(text = "Indonesia", modifier = arya,
-            fontSize = 70.sp, color = Color.Red,
+        horizontalAlignment = Alignment.CenterHorizontally)
+    {
+        Text(text = "Login",
+            fontSize = 50.sp, color = Color.Black,
             fontWeight = FontWeight.Bold
         )
-        Text(text = "Versus", modifier = arya,
+        Text(text = "", modifier = arya,
             fontSize = 40.sp, color = Color.Black,
             fontStyle = FontStyle.Italic
         )
