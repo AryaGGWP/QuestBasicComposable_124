@@ -7,7 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
@@ -52,7 +54,9 @@ fun BasicCompose(arya: Modifier = Modifier){
             fontSize = 50.sp, color = Color.Black,
             fontWeight = FontWeight.Bold
         )
-        Text(text = "", modifier = arya,
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "Ini adalah Halaman Login", modifier = arya,
             fontSize = 40.sp, color = Color.Black,
             fontStyle = FontStyle.Italic
         )
