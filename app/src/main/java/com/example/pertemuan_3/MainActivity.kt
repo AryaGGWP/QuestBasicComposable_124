@@ -61,6 +61,13 @@ fun BasicCompose(arya: Modifier = Modifier){
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        Image(painter = painterResource(id = R.drawable.umy),
+            contentDescription = null,
+            modifier = arya.size(150.dp)
+        )
+
+
+
         Text(text = "Nama",
             fontSize = 20.sp, color = Color.Black,
             fontWeight = FontWeight.Bold
