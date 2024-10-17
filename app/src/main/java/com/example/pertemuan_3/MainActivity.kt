@@ -88,10 +88,9 @@ fun BasicCompose(arya: Modifier = Modifier){
 
         Spacer(modifier = Modifier.height(30.dp))
 
-
-        Image(painter = painterResource(id = R.drawable.fifa),
+        Image(painter = painterResource(id = R.drawable.fotosaya),
             contentDescription = null,
-            modifier = arya.size(200.dp))
+            modifier = arya.size(300.dp))
     }
 }
 
