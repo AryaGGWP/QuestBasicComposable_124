@@ -56,6 +56,9 @@ fun BasicCompose(arya: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Text(text = "Ini adalah Halaman Login", modifier = arya,
+            fontSize = 15.sp, color = Color.Gray)
+
         Text(text = "Nama",
             fontSize = 20.sp, color = Color.Black,
             fontWeight = FontWeight.Bold
@@ -65,10 +68,7 @@ fun BasicCompose(arya: Modifier = Modifier){
             fontSize = 30.sp,
             color = Color.Red,
             fontWeight = FontWeight.Bold
-        )
 
-        Text(text = "Ini adalah Halaman Login", modifier = arya,
-            fontSize = 18.sp, color = Color.Gray
         )
         Image(painter = painterResource(id = R.drawable.fifa),
             contentDescription = null,
