@@ -53,7 +53,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(arya: Modifier = Modifier){
-    Column(verticalArrangement = Arrangement.Center,
+    Column(verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally)
     {
@@ -61,16 +61,16 @@ fun BasicCompose(arya: Modifier = Modifier){
             fontSize = 50.sp, color = Color.Black,
             fontWeight = FontWeight.Bold
         )
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(5.dp))
 
         Text(text = "Ini adalah Halaman Login", modifier = arya,
             fontSize = 15.sp, color = Color.Gray)
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(30.dp))
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
-            modifier = arya.size(150.dp)
+            modifier = arya.size(200.dp)
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -97,7 +97,7 @@ fun BasicCompose(arya: Modifier = Modifier){
 
         Image(painter = painterResource(id = R.drawable.fotosaya),
             contentDescription = null,
-            modifier = arya.size(300.dp).clip(RoundedCornerShape(50.dp))
+            modifier = arya.size(350.dp).clip(RoundedCornerShape(50.dp))
                 .border(8.dp, Color.Gray, RoundedCornerShape(50.dp))
                 .fillMaxSize(),
             contentScale = ContentScale.Crop
