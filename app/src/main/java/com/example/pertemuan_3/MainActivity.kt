@@ -66,7 +66,7 @@ fun BasicCompose(arya: Modifier = Modifier){
             modifier = arya.size(150.dp)
         )
 
-
+        Spacer(modifier = Modifier.height(16.dp))
 
         Text(text = "Nama",
             fontSize = 20.sp, color = Color.Black,
