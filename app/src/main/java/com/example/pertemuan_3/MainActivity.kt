@@ -79,6 +79,9 @@ fun BasicCompose(arya: Modifier = Modifier){
             fontWeight = FontWeight.Bold
 
         )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
         Image(painter = painterResource(id = R.drawable.fifa),
             contentDescription = null,
             modifier = arya.size(200.dp))
