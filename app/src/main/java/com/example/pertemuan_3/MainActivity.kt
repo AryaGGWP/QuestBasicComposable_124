@@ -56,6 +56,11 @@ fun BasicCompose(arya: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Text(text = "Nama",
+            fontSize = 20.sp, color = Color.Black,
+            fontWeight = FontWeight.Bold
+        )
+
         Text(text = "Ini adalah Halaman Login", modifier = arya,
             fontSize = 18.sp, color = Color.Gray
         )
