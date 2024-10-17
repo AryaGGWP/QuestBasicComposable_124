@@ -61,6 +61,12 @@ fun BasicCompose(arya: Modifier = Modifier){
             fontWeight = FontWeight.Bold
         )
 
+        Text(text = "Arya Dio Fenanto",
+            fontSize = 30.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
+        )
+
         Text(text = "Ini adalah Halaman Login", modifier = arya,
             fontSize = 18.sp, color = Color.Gray
         )
